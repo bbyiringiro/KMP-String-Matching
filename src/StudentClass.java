@@ -17,7 +17,7 @@ public class StudentClass {
 		int m = pattern.length();
 		int[] pi = new int[pattern.length()];
 		int k = 0; // holds length of matched characters
-		// pi[0] = 0; // I omitted this since java initialize array values to zero automatically
+		// pi[0] = 0; // java initialize array values to zero automatically
 
 		for (int q=1; q<m; q++){ //scan the pattern from left to right
 			char currentChar = pattern.charAt(q);
